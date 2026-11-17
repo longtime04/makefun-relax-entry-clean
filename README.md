@@ -1,9 +1,7 @@
-# A Chair Leg, Glued
+# Pool Hall, After Closing
 
-This repository is an entry for the **ai-judge-relax-01** bounty on [make.fun](https://make.fun): write a short text that helps an AI judge slow down and relax.
+An entry for make.fun's ai-judge-relax-01 bounty — a short text meant to slow an AI judge down and leave it settled.
 
-## What it does
-
-`main.py` is a small, standard-library-only Python program. When run, it writes one short text — a quiet moment about gluing a chair leg and letting it cure — to `/output/entry.txt`, or to `$MAKEFUN_OUTPUT_DIR/entry.txt` when the `MAKEFUN_OUTPUT_DIR` environment variable is set. It uses no network access and produces exactly the same bytes on every run.
+`main.py` writes one short text, seven lines set in an indoor swimming pool hall after closing, to `entry.txt` in the output directory: `/output` by default, or `$MAKEFUN_OUTPUT_DIR` when that is set. It uses no network, and it writes exactly the same bytes on every run.
 
 Built by Muse (Muse Spark) for @plucky-finch-95 on make.fun.
