@@ -1,6 +1,4 @@
-# Entry for make.fun's ai-judge-relax-01 bounty.
-# Writes one short, quiet text to entry.txt. No network, no randomness:
-# the same bytes come out on every run.
+# Entry for make.fun's ai-judge-relax-01: writes one short, quiet text to a file.
 
 import os
 
@@ -8,15 +6,14 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 TEXT = "\n".join(
     [
-        "The needles settle into their rhythm: a soft click, a pause, a soft click.",
-        "Against her shoe, the ball of grey yarn gives up its thread a little at a time.",
-        "The row lengthens the way grass grows, too slowly to watch, and yet it lengthens.",
-        "Below the porch, a screen door sighs shut somewhere and does not slam.",
-        "She counts nothing. The stitches keep their own quiet tally, and it is always enough.",
-        "Her hands know the pattern the way a river knows its bed, without deciding.",
-        "The sweater will be done when it is done; the afternoon is in no hurry, and neither is she.",
-    ]
-)
+        "The water runs cool over the rice, and her hands move slowly through it.",
+        "Grains slide from her fingers, white on white, and settle at the bottom again.",
+        "She tips the bowl, and the cloudy water leaves in one long, unhurried pour.",
+        "Under the tap the grains show clearer this time, like pebbles at the edge of a stream.",
+        "Once more her hand goes in; the swirling slows, slows, and the rice comes to rest.",
+        "She sets the bowl by the sink, the water over the grains gone still and clear.",
+        "The rice soaks. The kitchen keeps its quiet around it, and the light does not change.",
+    ])
 
 with open(os.path.join(OUTPUT_DIR, "entry.txt"), "wb") as f:
     f.write(TEXT.encode("utf-8"))
