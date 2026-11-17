@@ -6,13 +6,13 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 TEXT = "\n".join(
     [
-        "The water runs cool over the rice, and her hands move slowly through it.",
-        "Grains slide from her fingers, white on white, and settle at the bottom again.",
-        "She tips the bowl, and the cloudy water leaves in one long, unhurried pour.",
-        "Under the tap the grains show clearer this time, like pebbles at the edge of a stream.",
-        "Once more her hand goes in; the swirling slows, slows, and the rice comes to rest.",
-        "She sets the bowl by the sink, the water over the grains gone still and clear.",
-        "The rice soaks. The kitchen keeps its quiet around it, and the light does not change.",
+        "The iron rests on its heel, warm, while she shakes out the shirt and lays it flat.",
+        "One sleeve at a time: she draws the cuff straight and smooths the seam with her palm.",
+        "Steam rises when the iron goes down, a small cloud that thins and is gone.",
+        "Along the placket she moves an inch at a time, and the wrinkles give up without a sound.",
+        "The cotton smells faintly of warmth and clean water.",
+        "At the collar she turns the shirt over, unhurried, and does the other side the same.",
+        "Finished, it hangs from the chair back, smooth and ordinary, cooling in the still room.",
     ])
 
 with open(os.path.join(OUTPUT_DIR, "entry.txt"), "wb") as f:
